@@ -10,13 +10,13 @@ const mimeTypes = {
   ".svg": "image/svg+xml"
 };
 
-export default function image(options = {}) {
+export default function image (options = {}) {
   const filter = createFilter(options.include, options.exclude);
 
   return {
     name: "image",
 
-    load(id) {
+    load (id) {
       if (!filter(id)) return null;
 
       const mime = mimeTypes[extname(id)];
