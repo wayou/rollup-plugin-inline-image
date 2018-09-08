@@ -1,11 +1,13 @@
-# rollup-plugin-image
+# rollup-plugin-inline-image
 
-Import JPG, PNG, GIF and SVG files.
+inline JPG, PNG, GIF and SVG images into rollup bundle.
+
+**This same as [rollup/rollup-plugin-image](https://github.com/rollup/rollup-plugin-image) but the ouput of rollup-plugin-image is module code witch won't work in umd format. This fork ouput plain string code which can be transformed by Typescript or babel and available in umd format.**
 
 ## Installation
 
 ```bash
-npm install --save-dev rollup-plugin-image
+npm install --save-dev rollup-plugin-inline-image
 ```
 
 
@@ -13,7 +15,7 @@ npm install --save-dev rollup-plugin-image
 
 ```js
 // rollup.config.js
-import image from 'rollup-plugin-image';
+import image from 'rollup-plugin-inline-image';
 
 export default {
   entry: 'src/index.js',
