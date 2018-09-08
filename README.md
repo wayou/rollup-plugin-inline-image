@@ -1,8 +1,12 @@
 # rollup-plugin-inline-image
 
+[![npm package](https://img.shields.io/npm/v/rollup-plugin-inline-image.svg)](https://www.npmjs.com/package/rollup-plugin-inline-image)
+[![npm package](https://img.shields.io/npm/dt/rollup-plugin-inline-image.svg)](https://www.npmjs.com/package/rollup-plugin-inline-image)
+
+
 inline JPG, PNG, GIF and SVG images into rollup bundle.
 
-**This same as [rollup/rollup-plugin-image](https://github.com/rollup/rollup-plugin-image) but the ouput of rollup-plugin-image is module code witch won't work in umd format. This fork ouput plain string code which can be transformed by Typescript or babel and available in umd format.**
+**Same as [rollup/rollup-plugin-image](https://github.com/rollup/rollup-plugin-image) but the ouput of rollup-plugin-image is module code witch won't work in umd format. This fork ouput plain string code which can be transformed by Typescript or babel and available in umd format.**
 
 ## Installation
 
