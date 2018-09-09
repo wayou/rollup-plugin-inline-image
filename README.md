@@ -6,7 +6,7 @@
 
 inline JPG, PNG, GIF and SVG images into rollup bundle.
 
-**Same as [rollup/rollup-plugin-image](https://github.com/rollup/rollup-plugin-image) but the ouput of rollup-plugin-image is module code witch won't work in umd format. This fork ouput plain string code which can be transformed by Typescript or babel and available in umd format.**
+**Same as [rollup/rollup-plugin-image](https://github.com/rollup/rollup-plugin-image) but the ouput of rollup-plugin-image is module code which won't work in umd format. This fork ouput plain string code which can be transformed by Typescript or babel and available in umd format.**
 
 ## Installation
 
